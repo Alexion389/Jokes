@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Joke website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon /src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Alexion389/Jokes.git"
+  },
+  "author": "Simon Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexion389/Jokes/issues"
+  },
+  "homepage": "https://github.com/Alexion389/Jokes#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.6"
+  }
+}
